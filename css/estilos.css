@@ -146,7 +146,7 @@ border-radius: 10%;
 #pro{
   font-size: 20px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-top: 40px;
+  margin-top: 35px;
   text-align: center;
 }
 
@@ -158,7 +158,7 @@ border-radius: 10%;
 /* donación */
 
 #titu{
-  font-size: 25px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: blue;
   margin-top: 40px;
@@ -181,7 +181,7 @@ h4{
 
 #ds{
   font-size: 20px;
-  margin-top: 37px;
+  margin-top: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: left;
   color: darkblue;
