@@ -2,7 +2,8 @@ body {
   background-image: url(../imagenes/fondo.png);
   background-size: contain;
   object-position: center;
-  }
+  position: relative;
+}
 
   #boton{
     width:100%;
@@ -11,7 +12,7 @@ body {
    margin-right: 50px;
 }
 
-#algo{
+#logo1{
   margin-right: 50px;
 }
 #superior{
@@ -30,29 +31,68 @@ body {
     text-align: right;
 }
 
-
-  .inferior{
-  height: 100px;
+main {
+ position: relative;
   width: 100%;
-  background-size: contain;
-  background-image: url(../imagenes/barrainfior.png);
-}
-main{
-  width: 600px;
-  height: 350px;
-  min-width: 50px;
-background-color: rgb(61, 61, 61) ;
-border-radius: 5%;
-border-top: dashed 2px rgb(0, 0, 0); 
-border-bottom: dashed 2px black;
-border-left: dashed 2px black;
-border-right: dashed 2px black;
+  height: 350px; 
+  max-width: 1200px;
+  margin-top: 70px;
 }
 
-video{
-  width: 550px;
-  height: 300px;
+#caja{
+  margin-bottom: 100px;
+  background-color: lightblue;
+  font-size: 18px;
+  font-style: italic;
+  font-family: 'Times New Roman';
 }
+
+main p{
+  color: rgb(85, 12, 221);
+  margin-top: 10px;
+  font-style: normal;
+  font-size: 20px;
+  font-family:'Lucida Sans';
+}
+
+.card-title{
+  color: blueviolet;
+}
+
+.btn{
+  color: rgb(255, 255, 255);
+  background-color: rgb(40, 82, 95);
+}
+footer{
+  position: fixed;
+  background-color: rgb(80, 70, 70);
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom: 0%;
+}
+
+footer img{
+  width: 40px;
+  min-width: 10px;
+  margin-top: 5px;
+}
+ footer p{
+  text-align: left;
+  font-family:fantasy;
+  color: antiquewhite;
+  font-size: 10px;
+  margin-top: 10px;
+ }
+
+ #gtcopy{
+  text-align: left;
+  font-family:fantasy;
+  color: antiquewhite;
+  font-style: italic;
+  font-size: 8px;
+  margin-top: 10px;
+ }
 
 .cuerpo{
   background-image: url(../imagenes/body2.png);
