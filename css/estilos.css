@@ -7,6 +7,7 @@ body {
   overflow-x: hidden;
 }
 
+
 header{
 background: rgb(241,227,250);
 background: -moz-linear-gradient(90deg, rgba(241,227,250,1) 0%, rgba(221,182,250,1) 16%, rgba(25,61,238,1) 49%, rgba(162,155,245,1) 81%, rgba(189,186,240,1) 98%);
@@ -101,7 +102,7 @@ main {
   font-family:'Lucida Sans';
 }
 
-.card-title{
+.ultimo{
   color: blueviolet;
 }
 
@@ -151,90 +152,38 @@ footer img{
  
  /* Cominudad */
  
- .fondo{
-  background-image: url(../imagenes/GrandFantasia_art.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 70vh;
-  margin-top: 50px;
- }
-
- .form{
-  margin-top: 100px;
- }
-
- .form-label{
-  font-size: larger;
-  color: rgb(0, 26, 255);
-  background-color: rgb(169, 168, 240);
-  background-size: cover;
-  border-radius: 20%;
- }
-
- .form-text{
-font-size: medium;
-color: rgb(255, 255, 255);
-background-color: black;
-opacity: 60%;
-border-radius: 10%;
- }
-
- /* proyecto*/
-
-#cuadrito{
-  background-image: url(../imagenes/body2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 400px;
-  height: 600px;
-  background-color: #00000000;
+ .carousel-inner img {
+  height: 300px;
+  width: auto; 
+  object-fit: contain; 
+  background-color: rgba(0, 0, 0, 0.37);
 }
 
-.card-header{
-  margin-top: 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+.redes{
+  background-color: rgb(12, 84, 143);
+  border-radius: 30%;
+  border-color: rgb(61, 196, 196);
+  border-style:double;
+  border-width: 5px;
+
+}
+.conte{
+  color: rgb(255, 255, 255);
 }
 
-#pro{
-  font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin-top: 35px;
+.unete{
+  color: aqua;
   text-align: center;
 }
 
-#cuerpo{
-  width: 250px;
-  margin-left: 50px;
+.icono{
+  height: 50px
 }
 
-/* donación */
-
-#titu{
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: blue;
-  margin-top: 40px;
+.unirse{
+  margin-left: 35%;
 }
 
-#dona{
-  font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: rgb(121, 7, 102);
-}
-
-h4{
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  color:rgb(29, 85, 131);
-  font-style: italic;
-}
-
-/* comunidad */
-
-#ds{
-  font-size: 20px;
-  margin-top: 30px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: left;
-  color: darkblue;
+section{
+  margin-bottom: 50px;
 }
