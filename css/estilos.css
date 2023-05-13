@@ -169,11 +169,13 @@ footer img{
 }
 .conte{
   color: rgb(255, 255, 255);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .unete{
   color: aqua;
   text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .icono{
@@ -184,6 +186,128 @@ footer img{
   margin-left: 35%;
 }
 
-section{
+.comunidad{
   margin-bottom: 50px;
+}
+
+ /* Donacion */
+
+.dona{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.cion{
+  background-color: rgba(255, 255, 255, 0.74);
+border-color: black;
+border-width: 5px;
+border-style: groove;
+}
+
+.apoyo{
+  font-size: 25px;
+  background: -webkit-linear-gradient(#15ff00, #0004ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.ayu{
+  font-size: 20px;
+  background: -webkit-linear-gradient(#49c700, #ff00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Registro*/
+
+.fotito{
+  width: 300px;
+}
+
+.regi{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: rgb(156,255,160);
+  background: -moz-linear-gradient(90deg, rgba(156,255,160,1) 0%, rgba(255,130,236,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(156,255,160,1) 0%, rgba(255,130,236,1) 100%);
+  background: linear-gradient(90deg, rgba(156,255,160,1) 0%, rgba(255,130,236,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9cffa0",endColorstr="#ff82ec",GradientType=1);
+  border-color: black;
+  border-width: 10px;
+  border-style:double;
+}
+
+.tro{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 20px;
+}
+
+.bo{
+  margin-left: 300px;
+}
+
+.dy{
+  background: rgb(134,251,255);
+background: -moz-radial-gradient(circle, rgba(134,251,255,1) 0%, rgba(255,132,255,1) 14%, rgba(134,251,255,1) 26%, rgba(255,132,255,1) 39%, rgba(134,251,255,1) 56%, rgba(255,132,255,1) 71%, rgba(134,251,255,1) 85%, rgba(255,132,255,1) 100%);
+background: -webkit-radial-gradient(circle, rgba(134,251,255,1) 0%, rgba(255,132,255,1) 14%, rgba(134,251,255,1) 26%, rgba(255,132,255,1) 39%, rgba(134,251,255,1) 56%, rgba(255,132,255,1) 71%, rgba(134,251,255,1) 85%, rgba(255,132,255,1) 100%);
+background: radial-gradient(circle, rgba(134,251,255,1) 0%, rgba(255,132,255,1) 14%, rgba(134,251,255,1) 26%, rgba(255,132,255,1) 39%, rgba(134,251,255,1) 56%, rgba(255,132,255,1) 71%, rgba(134,251,255,1) 85%, rgba(255,132,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#86fbff",endColorstr="#ff84ff",GradientType=1); 
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1);  
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #000000;
+}
+
+.ce{
+  margin-left: 400px;
+}
+
+.ca{
+  margin-left: 370px;
+}
+
+.crear{
+  margin-left: 600px;
+}
+
+@media (max-width: 400px) {
+  .bo {
+    margin: 120px;
+  }
+  
+  .ce{
+    margin-left: 40px;
+    width: 200px;
+  }
+  
+  .ca{
+    margin-left: 37px;
+    width: 200px
+  }
+  
+  .crear{
+    margin-left: 60px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 992px) {
+  .bo {
+    margin: 120px;
+  }
+  
+  .ce{
+    margin-left: 40px;
+  }
+  
+  .ca{
+    margin-left: 10px;
+  }
+  
+  .crear{
+    margin-left: 250px;
+  }
 }
