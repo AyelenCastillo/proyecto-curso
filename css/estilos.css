@@ -316,7 +316,7 @@ border-style: groove;
   margin-left: 600px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .bo {
     margin: 120px;
   }
