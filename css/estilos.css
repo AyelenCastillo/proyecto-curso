@@ -294,12 +294,11 @@ border-style: groove;
 }
 
 .dy{
-  background: rgb(134,251,255);
-background: -moz-radial-gradient(circle, rgba(134,251,255,1) 0%, rgba(255,132,255,1) 14%, rgba(134,251,255,1) 26%, rgba(255,132,255,1) 39%, rgba(134,251,255,1) 56%, rgba(255,132,255,1) 71%, rgba(134,251,255,1) 85%, rgba(255,132,255,1) 100%);
-background: -webkit-radial-gradient(circle, rgba(134,251,255,1) 0%, rgba(255,132,255,1) 14%, rgba(134,251,255,1) 26%, rgba(255,132,255,1) 39%, rgba(134,251,255,1) 56%, rgba(255,132,255,1) 71%, rgba(134,251,255,1) 85%, rgba(255,132,255,1) 100%);
-background: radial-gradient(circle, rgba(134,251,255,1) 0%, rgba(255,132,255,1) 14%, rgba(134,251,255,1) 26%, rgba(255,132,255,1) 39%, rgba(134,251,255,1) 56%, rgba(255,132,255,1) 71%, rgba(134,251,255,1) 85%, rgba(255,132,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#86fbff",endColorstr="#ff84ff",GradientType=1); 
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#000000",GradientType=1);  
+  background: rgb(156,255,160);
+  background: -moz-linear-gradient(90deg, rgba(156,255,160,1) 0%, rgba(255,130,236,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(156,255,160,1) 0%, rgba(255,130,236,1) 100%);
+  background: linear-gradient(90deg, rgba(156,255,160,1) 0%, rgba(255,130,236,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9cffa0",endColorstr="#ff82ec",GradientType=1);
   font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: #000000;
