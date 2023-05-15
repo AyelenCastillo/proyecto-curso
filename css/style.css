@@ -129,7 +129,7 @@ main {
   font-family: 'Times New Roman';
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .caja {
     margin: 10px;
   }
@@ -317,6 +317,10 @@ border-style: groove;
 }
 
 @media (max-width: 500px) {
+  .dy{
+    height: 60vh;
+  }
+
   .bo {
     margin: 120px;
   }
@@ -334,6 +338,7 @@ border-style: groove;
   .crear{
     margin-left: 60px;
   }
+
 }
 
 @media (min-width: 500px) and (max-width: 992px) {
