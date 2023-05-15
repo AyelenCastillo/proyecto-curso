@@ -1,0 +1,42 @@
+main {
+    padding-bottom: nth($size, 3);
+
+    .teatro1 {
+      max-height: nth($size, 8);
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .fantasia {
+      background-color: nth($colores, 8);
+      font-size: 19px;
+      font-family: $fontC;
+      color: $bg-c;
+    }
+
+    .caja {
+      margin: 100px;
+      background-color: nth($colores, 3);
+      font-size: 18px;
+      font-style: italic;
+      font-family: "Times New Roman";
+
+      .parche {
+        color: nth($colores, 2);
+        margin-top: nth($size, 4);
+        font-style: normal;
+        font-size: nth($size, 7);
+        font-family: $fontT;
+
+        .ultimo {
+          color: nth($colores, 4);
+        }
+
+        .btn {
+          color: nth($colores, 1);
+          background-color: nth($colores, 7);
+        }
+      }
+    }
+}

@@ -1,0 +1,95 @@
+.regi {
+    margin-top: nth($size, 3);
+    margin-bottom: nth($size, 3);
+    background: rgb(156, 255, 160);
+    background: -moz-linear-gradient(90deg, rgba(156, 255, 160, 1) 0%, rgba(255, 130, 236, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(156, 255, 160, 1) 0%, rgba(255, 130, 236, 1) 100%);
+    background: linear-gradient(90deg, rgba(156, 255, 160, 1) 0%, rgba(255, 130, 236, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9cffa0",endColorstr="#ff82ec",GradientType=1);
+    border-color: $bg-c;
+    border-width: nth($size, 4);
+    border-style: double;
+    
+    .fotito {
+        width: nth($size, 1);
+    }
+
+    .tro {
+        text-align: center;
+        font-family: $fontA;
+        color: $bg-c;
+        font-size: nth($size, 7);
+    }
+
+    .bo {
+        margin-left: nth($size, 1);
+    }
+
+    .dy {
+        background: rgb(156, 255, 160);
+        background: -moz-linear-gradient(90deg, rgba(156, 255, 160, 1) 0%, rgba(255, 130, 236, 1) 100%);
+        background: -webkit-linear-gradient(90deg, rgba(156, 255, 160, 1) 0%, rgba(255, 130, 236, 1) 100%);
+        background: linear-gradient(90deg, rgba(156, 255, 160, 1) 0%, rgba(255, 130, 236, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9cffa0",endColorstr="#ff82ec",GradientType=1);
+        font-size: nth($size, 7);
+        font-family: $fontT;
+        color: $bg-c;
+        
+        .ce {
+            margin-left: nth($size, 8);
+        }
+          
+        .ca {
+            margin-left: 370px;
+        }
+
+        .crear {
+            margin-left: 600px;
+        }
+    }
+  
+    @media (max-width: 500px) {
+        .dy {
+            height: 60vh;
+        
+            .ce {
+                margin-left: 40px;
+                width: nth($size, 9);
+            }
+            .ca {
+                margin-left: 37px;
+                width: nth($size, 9);
+            }
+            .crear {
+                margin-left: 60px;
+            }
+        }
+        .bo {
+            margin: 120px;
+        } 
+    }
+    @media (min-width: 500px) and (max-width: 992px) {
+        
+        .bo {
+            margin: 120px;
+        }
+    .dy { 
+        .ce {
+            margin-left: 80px;
+        }
+  
+        .ca {
+            margin-left: nth($size, 3);
+        }
+  
+        .crear {
+            margin-left: 250px;
+        }
+    }
+    }
+}
+
+  
+
+
+  

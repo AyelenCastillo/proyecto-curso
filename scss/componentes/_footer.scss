@@ -1,0 +1,36 @@
+footer {
+    position: fixed;
+    background: rgb(30, 77, 116);
+    background: -moz-linear-gradient(90deg, rgb(30, 77, 116) 0%, rgb(80, 6, 126) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(30, 77, 116) 0%, rgb(80, 6, 126) 100%);
+    background: linear-gradient(90deg, rgb(30, 77, 116) 0%, rgb(80, 6, 126) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e4d74",endColorstr="#50067e",GradientType=1);
+    height: nth($size, 3);
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    margin-top: nth($size, 2);
+
+    .footerimg {
+      width: 40px;
+      min-width: nth($size, 4);
+      margin-top: nth($size, 5);
+    }
+
+    .p {
+      text-align: left;
+      font-family: fantasy;
+      color:nth($colores, 1);
+      font-size: nth($size, 4);
+      margin-top: nth($size, 4);
+    }
+
+    .gtcopy {
+      text-align: left;
+      font-family: $fontT;
+      color: nth($colores, 1);
+      font-style: italic;
+      font-size: 12px;
+      margin-top: nth($size, 5);
+    }
+}

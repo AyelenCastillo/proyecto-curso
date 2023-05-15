@@ -1,0 +1,97 @@
+header {
+    background: rgb(241, 227, 250);
+    background: -moz-linear-gradient(90deg, rgb(241, 227, 250) 0%, rgb(221, 182, 250) 16%, rgb(25, 61, 238) 49%, rgb(162, 155, 245) 81%, rgb(189, 186, 240) 98%);
+    background: -webkit-linear-gradient(90deg, rgb(241, 227, 250) 0%, rgb(221, 182, 250) 16%, rgb(25, 61, 238) 49%, rgb(162, 155, 245) 81%, rgb(189, 186, 240) 98%);
+    background: linear-gradient(90deg, rgb(241, 227, 250) 0%, rgb(221, 182, 250) 16%, rgb(25, 61, 238) 49%, rgb(162, 155, 245) 81%, rgb(189, 186, 240) 98%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f1e3fa",endColorstr="#bdbaf0",GradientType=1);
+    
+    .botones {
+        background: rgb(100, 221, 255);
+        background: -moz-radial-gradient(circle, rgb(100, 221, 255) 0%, rgb(174, 42, 255) 100%);
+        background: -webkit-radial-gradient(circle, rgb(100, 221, 255) 0%, rgb(174, 42, 255) 100%);
+        background: radial-gradient(circle, rgb(100, 221, 255) 0%, rgb(174, 42, 255) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#64ddff",endColorstr="#ae2aff",GradientType=1);
+        border-color: $bg-c;
+        border-radius: 10%;
+        border-style: double;
+        font-style: italic;
+        font-family: $fontA;
+        color: $bg-c;
+    }
+}  
+
+@media (min-width: 992px) {
+    body header .logo {
+      margin-right: nth($size, 1);
+      margin-left: nth($size, 2);
+    }
+}
+  
+@media (min-width: 400px) and (max-width: 992px) {
+    body header .logo {
+      margin-right: nth($size, 2);
+    }
+}
+  
+@media (min-width: 992px) {
+    body header {
+        .ov-btn-grow-skew {
+            background: rgb(100, 221, 255);
+            background: -moz-radial-gradient(circle, rgb(100, 221, 255) 0%, rgb(174, 42, 255) 100%);
+            background: -webkit-radial-gradient(circle, rgb(100, 221, 255) 0%, rgb(174, 42, 255) 100%);
+            background: radial-gradient(circle, rgb(100, 221, 255) 0%, rgb(174, 42, 255) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#64ddff",endColorstr="#ae2aff",GradientType=1);
+            border-color: $bg-c;
+            border-radius: 10%;
+            border-style: double;
+            font-style: italic;
+            font-family: $fontA;
+            color: $bg-c;
+            padding: 16px nth($size, 7);
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            display: inline-block;
+  
+            &:hover {
+                font-style: italic;
+                font-family: $fontA;
+                color: nth($colores, 1);
+            }
+  
+            &::after {
+                content: "";
+                background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+                position: absolute;
+                z-index: -1;
+                padding: 16px 20px;
+                display: block;
+                left: -20%;
+                right: -20%;
+                top: 0;
+                bottom: 0;
+                transform: skewX(-45deg) scale(0, 1);
+                transition: all 0.3s ease;
+            }
+  
+            &:hover::after {
+                transition: all 0.3s ease-out;
+                transform: skewX(-45deg) scale(1, 1);
+            }
+        }
+  
+        .botones {
+            margin-right: nth($size, 3);
+            margin-left: nth($size, 3);
+            padding: nth($size, 4);
+        }
+    }
+}
+  
+@media (min-width: 500px) and (max-width: 992px) {
+    body header .botones {
+      margin-left: nth($size, 4);
+      margin-right: nth($size, 4);
+      padding: nth($size, 4);
+    }
+}

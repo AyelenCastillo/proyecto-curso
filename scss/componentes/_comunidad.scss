@@ -1,0 +1,37 @@
+.carousel-inner img {
+    height: 300px;
+    width: auto;
+    object-fit: contain;
+    background-color: rgba(0, 0, 0, 0.37);
+}
+  
+.comunidad {
+    margin-bottom: 50px;
+
+    .redes {
+        background-color: rgb(12, 84, 143);
+        border-radius: 30%;
+        border-color: rgb(61, 196, 196);
+        border-style: double;
+        border-width: 5px;
+  
+         .conte {
+            color: rgb(255, 255, 255);
+            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        }
+  
+        .unete {
+            color: aqua;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+        }
+  
+        .unirse {
+            margin-left: 35%;
+        }
+  
+        .icono {
+            height: 50px;
+        }
+    }
+}
