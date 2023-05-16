@@ -143,18 +143,18 @@ main .caja .parche .btn {
 .comunidad .redes {
   background-color: rgb(12, 84, 143);
   border-radius: 30%;
-  border-color: rgb(61, 196, 196);
+  border-color: aqua;
   border-style: double;
   border-width: 5px;
 }
 .comunidad .redes .conte {
-  color: rgb(255, 255, 255);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-family: "Arial";
 }
 .comunidad .redes .unete {
   color: aqua;
   text-align: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Arial";
 }
 .comunidad .redes .unirse {
   margin-left: 35%;
@@ -191,7 +191,7 @@ main .caja .parche .btn {
   font-family: "Calibri";
 }
 
-.proyect {
+.proyect, .proyect .po {
   background-color: rgba(0, 0, 0, 0.5882352941);
   border-color: rgba(250, 235, 215, 0.658);
   border-style: double;
@@ -201,7 +201,6 @@ main .caja .parche .btn {
   width: 200px;
 }
 .proyect .po {
-  background-color: rgba(0, 0, 0, 0.5882352941);
   opacity: 80%;
   border-color: rgba(250, 235, 215, 0.658);
   border-style: double;
@@ -250,6 +249,7 @@ main .caja .parche .btn {
   background: -webkit-linear-gradient(90deg, rgb(156, 255, 160) 0%, rgb(255, 130, 236) 100%);
   background: linear-gradient(90deg, rgb(156, 255, 160) 0%, rgb(255, 130, 236) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9cffa0",endColorstr="#ff82ec",GradientType=1);
+  border: none;
   font-size: 20px;
   font-family: "Times New Roman";
   color: black;

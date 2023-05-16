@@ -56,7 +56,7 @@ header {
             &:hover {
                 font-style: italic;
                 font-family: $fontA;
-                color: nth($colores, 1);
+                color: map-get($colores, blanco);
             }
   
             &::after {

@@ -9,21 +9,21 @@
     margin-bottom: 50px;
 
     .redes {
-        background-color: rgb(12, 84, 143);
+        background-color:map-get($colores, azulo);
         border-radius: 30%;
-        border-color: rgb(61, 196, 196);
+        border-color:map-get($colores, celaqua);
         border-style: double;
         border-width: 5px;
   
          .conte {
-            color: rgb(255, 255, 255);
-            font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+            color:map-get($colores, blanco);
+            font-family: $fontA
         }
   
         .unete {
-            color: aqua;
+            color: map-get($colores, celaqua);
             text-align: center;
-            font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+            font-family: $fontA
         }
   
         .unirse {

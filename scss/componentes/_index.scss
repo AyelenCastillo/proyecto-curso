@@ -9,7 +9,7 @@ main {
     }
 
     .fantasia {
-      background-color: nth($colores, 8);
+      background-color: map-get($colores, lavander);
       font-size: 19px;
       font-family: $fontC;
       color: $bg-c;
@@ -17,25 +17,25 @@ main {
 
     .caja {
       margin: 100px;
-      background-color: nth($colores, 3);
+      background-color: map-get($colores, celeste);
       font-size: 18px;
       font-style: italic;
       font-family: "Times New Roman";
 
       .parche {
-        color: nth($colores, 2);
+        color: map-get($colores, azul);
         margin-top: nth($size, 4);
         font-style: normal;
         font-size: nth($size, 7);
         font-family: $fontT;
 
         .ultimo {
-          color: nth($colores, 4);
+          color: map-get($colores, violeta);
         }
 
         .btn {
-          color: nth($colores, 1);
-          background-color: nth($colores, 7);
+          color: map-get($colores, blanco);
+          background-color: map-get($colores, azulo);
         }
       }
     }

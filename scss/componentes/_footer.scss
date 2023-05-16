@@ -20,7 +20,7 @@ footer {
     .p {
       text-align: left;
       font-family: fantasy;
-      color:nth($colores, 1);
+      color: map-get($colores, blanco);
       font-size: nth($size, 4);
       margin-top: nth($size, 4);
     }
@@ -28,7 +28,7 @@ footer {
     .gtcopy {
       text-align: left;
       font-family: $fontT;
-      color: nth($colores, 1);
+      color: map-get($colores, blanco);
       font-style: italic;
       font-size: 12px;
       margin-top: nth($size, 5);

@@ -7,12 +7,12 @@
         width: nth($size, 9);
     }
     .po {
-        background-color: #00000096;
+        @extend .proyect;
         opacity: 80%;
         border-color: rgba(250, 235, 215, 0.658);
         border-style: double;
         border-width: nth($size, 4);
-        color: nth($colores, 1);
+        color: map-get($colores, blanco);
         font-family: cursive;
         font-size: 18px;
         .titulo {

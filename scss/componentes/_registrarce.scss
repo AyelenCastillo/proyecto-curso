@@ -24,17 +24,17 @@
     .bo {
         margin-left: nth($size, 1);
     }
-
+ 
     .dy {
         background: rgb(156, 255, 160);
         background: -moz-linear-gradient(90deg, rgba(156, 255, 160, 1) 0%, rgba(255, 130, 236, 1) 100%);
         background: -webkit-linear-gradient(90deg, rgba(156, 255, 160, 1) 0%, rgba(255, 130, 236, 1) 100%);
         background: linear-gradient(90deg, rgba(156, 255, 160, 1) 0%, rgba(255, 130, 236, 1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9cffa0",endColorstr="#ff82ec",GradientType=1);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9cffa0",endColorstr="#ff82ec",GradientType=1);        border: none;
         font-size: nth($size, 7);
         font-family: $fontT;
         color: $bg-c;
-        
+                
         .ce {
             margin-left: nth($size, 8);
         }
