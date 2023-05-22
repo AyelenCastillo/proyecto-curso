@@ -1,5 +1,5 @@
 body {
-  background-image: url(../imagenes/fondo.png);
+  background-image: url(../imagenes/fondo.webp);
   background-size: contain;
   object-position: center;
   position: relative;
@@ -158,9 +158,15 @@ main .caja .parche .btn {
 }
 .comunidad .redes .unirse {
   margin-left: 35%;
+  color: lightblue;
 }
 .comunidad .redes .icono {
   height: 50px;
+}
+.comunidad .redes .btn {
+  background-color: rgb(12, 84, 143);
+  border: 5px;
+  border-style: double;
 }
 
 .dona {
@@ -242,6 +248,8 @@ main .caja .parche .btn {
 }
 .regi .bo {
   margin-left: 300px;
+  background-color: black;
+  color: white;
 }
 .regi .dy {
   background: rgb(156, 255, 160);
@@ -262,9 +270,11 @@ main .caja .parche .btn {
 }
 .regi .dy .crear {
   margin-left: 600px;
+  background-color: black;
+  color: white;
 }
 @media (max-width: 500px) {
-  .regi .dy {
+  .regi .offcanvas {
     height: 60vh;
   }
   .regi .dy .ce {
@@ -327,8 +337,24 @@ footer .gtcopy {
   font-family: "Times New Roman";
   color: white;
   font-style: italic;
-  font-size: 12px;
-  margin-top: 5px;
+  font-size: 8px;
+  margin-top: 10px;
+}
+footer .arriba {
+  background-color: blueviolet;
+  border-color: black;
+  border: 10px;
+}
+
+@media (min-width: 992px) {
+  .arriba {
+    margin-left: 176px;
+  }
+}
+@media (min-width: 500px) and (max-width: 992px) {
+  .arriba {
+    margin-left: 100px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

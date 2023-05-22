@@ -23,8 +23,11 @@
 
     .bo {
         margin-left: nth($size, 1);
+        background-color: $bg-c;
+        color:map-get($colores, blanco);
+
     }
- 
+    
     .dy {
         background: rgb(156, 255, 160);
         background: -moz-linear-gradient(90deg, rgba(156, 255, 160, 1) 0%, rgba(255, 130, 236, 1) 100%);
@@ -45,13 +48,16 @@
 
         .crear {
             margin-left: 600px;
+            background-color: $bg-c;
+            color:map-get($colores, blanco);
         }
     }
   
     @media (max-width: 500px) {
-        .dy {
+        .offcanvas{
             height: 60vh;
-        
+        }
+        .dy {
             .ce {
                 margin-left: 40px;
                 width: nth($size, 9);

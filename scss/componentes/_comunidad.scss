@@ -28,10 +28,17 @@
   
         .unirse {
             margin-left: 35%;
+            color: map-get($colores, celeste)
         }
   
         .icono {
             height: 50px;
+        }
+        .btn{
+            background-color: map-get($colores, azulo);
+            border: 5px;
+            border-style: double;
+
         }
     }
 }

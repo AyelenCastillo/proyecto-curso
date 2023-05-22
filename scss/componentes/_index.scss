@@ -1,42 +1,42 @@
 main {
-    padding-bottom: nth($size, 3);
+  padding-bottom: nth($size, 3);
 
-    .teatro1 {
-      max-height: nth($size, 8);
-      width: 100%;
-      object-fit: cover;
-      object-position: center;
-    }
+  .teatro1 {
+    max-height: nth($size, 8);
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
 
-    .fantasia {
-      background-color: map-get($colores, lavander);
-      font-size: 19px;
-      font-family: $fontC;
-      color: $bg-c;
-    }
+  .fantasia {
+    background-color: map-get($colores, lavander);
+    font-size: 19px;
+    font-family: $fontC;
+    color: $bg-c;
+  }
 
-    .caja {
-      margin: 100px;
-      background-color: map-get($colores, celeste);
-      font-size: 18px;
-      font-style: italic;
-      font-family: "Times New Roman";
+  .caja {
+    margin: 100px;
+    background-color: map-get($colores, celeste);
+    font-size: 18px;
+    font-style: italic;
+    font-family: "Times New Roman";
 
-      .parche {
-        color: map-get($colores, azul);
-        margin-top: nth($size, 4);
-        font-style: normal;
-        font-size: nth($size, 7);
-        font-family: $fontT;
+    .parche {
+      color: map-get($colores, azul);
+      margin-top: nth($size, 4);
+      font-style: normal;
+      font-size: nth($size, 7);
+      font-family: $fontT;
 
-        .ultimo {
-          color: map-get($colores, violeta);
-        }
+      .ultimo {
+        color: map-get($colores, violeta);
+      }
 
-        .btn {
-          color: map-get($colores, blanco);
-          background-color: map-get($colores, azulo);
-        }
+      .btn {
+        color: map-get($colores, blanco);
+        background-color: map-get($colores, azulo);
       }
     }
+  }
 }
