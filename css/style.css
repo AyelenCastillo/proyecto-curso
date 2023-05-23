@@ -109,7 +109,6 @@ main .fantasia {
   color: black;
 }
 main .caja {
-  margin: 100px;
   background-color: lightblue;
   font-size: 18px;
   font-style: italic;
@@ -125,11 +124,24 @@ main .caja .parche {
 main .caja .parche .ultimo {
   color: blueviolet;
 }
+main .caja .parche ul {
+  list-style: none;
+}
 main .caja .parche .btn {
   color: white;
   background-color: rgb(12, 84, 143);
 }
 
+@media (max-width: 500px) {
+  .caja {
+    margin: 10px;
+  }
+}
+@media (min-width: 500px) {
+  .caja {
+    margin: 100px;
+  }
+}
 .carousel-inner img {
   height: 300px;
   width: auto;
@@ -155,6 +167,7 @@ main .caja .parche .btn {
   color: aqua;
   text-align: center;
   font-family: "Arial";
+  padding: 15px;
 }
 .comunidad .redes .unirse {
   margin-left: 35%;
@@ -250,6 +263,9 @@ main .caja .parche .btn {
   margin-left: 300px;
   background-color: black;
   color: white;
+}
+.regi .adv {
+  padding: 15px;
 }
 .regi .dy {
   background: rgb(156, 255, 160);

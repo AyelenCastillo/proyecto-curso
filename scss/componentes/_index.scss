@@ -16,7 +16,6 @@ main {
   }
 
   .caja {
-    margin: 100px;
     background-color: map-get($colores, celeste);
     font-size: 18px;
     font-style: italic;
@@ -30,7 +29,11 @@ main {
       font-family: $fontT;
 
       .ultimo {
-        color: map-get($colores, violeta);
+        color: map-get($colores, violeta); 
+      }
+
+      ul{
+        list-style: none;
       }
 
       .btn {
@@ -38,5 +41,17 @@ main {
         background-color: map-get($colores, azulo);
       }
     }
+  }
+}
+
+@media (max-width: 500px){
+  .caja{
+    margin: 10px;
+  }
+}
+
+@media (min-width: 500px){
+  .caja{
+    margin: 100px;
   }
 }
