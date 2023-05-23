@@ -27,7 +27,7 @@ main {
       font-style: normal;
       font-size: nth($size, 7);
       font-family: $fontT;
-
+      
       .ultimo {
         color: map-get($colores, violeta); 
       }
